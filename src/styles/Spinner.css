@@ -1,0 +1,23 @@
+.spinner {
+    min-width: 100vw;
+    min-height: 100vh;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+    left: 0%;
+    bottom: 0%;
+    right: 0%;
+    align-items: center;
+    justify-content: center;
+    background: rgb(31, 29, 29);
+    z-index: 1000000000000000000;
+}
+.spin {
+    width: 300px;
+    height: auto;
+}
+.welcome {
+    color: white;
+    font-weight: bold;
+}

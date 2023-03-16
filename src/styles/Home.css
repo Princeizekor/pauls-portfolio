@@ -1,0 +1,116 @@
+.typewrite h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+
+  .flex {
+      max-width: 70%;
+      margin: 0% auto;
+  }
+
+  .typewrite {
+      font-size: 70px;
+      color: whitesmoke;
+      font-weight: 900;
+      margin: 0%;
+      height: 70px;
+      background-color: transparent;
+  }
+
+  #home {
+    max-width: 1440px;
+    margin: 0% auto;
+    height: 650px;
+    background-image: url('/public/img/download\ \(1\).png');
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hello {
+    color: rgb(128, 29, 221);
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .front-end-btn {
+    width: 150px;
+    color: grey;
+    font-size: 14px;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    height: 30px;
+    margin-top: 2%;
+}
+
+.more {
+  width: 130px;
+  background: transparent;
+  height: 40px;
+  color: whitesmoke;
+  border: 3px solid rgb(128, 29, 221);
+  border-radius: 4px;
+  margin-top: 1%;
+  transition: 1s all ease;
+}
+
+.more:hover {
+  background-color: whitesmoke;
+  color: rgb(128, 29, 221);
+  transition: 1s all ease;
+}
+
+.icons {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+@media screen and (max-width: 767px) {
+  #home {
+    width: 100%;
+    margin: 0%;
+    height: 650px;
+    background-image: url('/public/img/download\ \(2\).png');
+  }
+
+  .typewrite {
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: 900;
+    margin: 0%;
+    height: 70px;
+    background-color: transparent;
+}
+
+  .hello {
+    color: rgb(128, 29, 221);
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .front-end-btn {
+    margin-bottom: 20px;
+}
+}

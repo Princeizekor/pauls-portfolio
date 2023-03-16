@@ -1,0 +1,81 @@
+#portfolio {
+    max-width: 1440px;
+    height: auto;
+    margin: 0% auto;
+    padding: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+#portfolio h1 {
+    color: rgb(128, 29, 221);
+    margin: 0%;
+}
+
+.work {
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.jobs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.job-img-wrapper {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    background: rgb(34, 33, 33);
+}
+.job-image {
+    width: 440px;
+    object-fit: contain;
+}
+
+.job-text {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    width: 650px;
+}
+.page-name {
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(128, 29, 221);
+    margin-bottom: 30px;
+}
+.page-tools {
+    color: grey;
+    margin-bottom: 30px;
+}
+.page-tools,
+.page-detail {
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    #portfolio {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .jobs {
+        width: 100%;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-top: 30px;
+        justify-content: center;
+    }
+}

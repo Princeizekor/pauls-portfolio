@@ -1,0 +1,86 @@
+#service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1440px;
+    padding: 50px;
+    height: auto;
+    margin: 0% auto;
+    background-color: rgb(10, 10, 10);
+}
+
+#service h1 {
+    color: rgb(128, 29, 221);
+    margin: 0%;
+}
+
+.skill {
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 55px;
+}
+
+.cards {
+    background: rgb(34, 33, 33);
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s all ease;
+}
+
+.cards:hover {
+    transform: translateY(5%);
+    transition: 0.3s all ease;
+}
+
+.cards img {
+    margin-top: 5%;
+}
+
+.cards h2 {
+    font-size: 15px;
+    margin-top: 5%;
+}
+
+.cards hr {
+    margin-top: 5%;
+}
+.cards p {
+    margin-top: 5%;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 767px) {
+    #service {
+        width: 100%;
+        margin: 0%;
+    }
+    
+    .card-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 50px;
+        gap: 55px;
+    }
+    
+    .cards {
+        width: 250px;
+        height: 280px;
+    }
+}

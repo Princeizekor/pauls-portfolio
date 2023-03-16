@@ -1,0 +1,12 @@
+.cursor {
+    margin-top: -75px;
+    z-index: 1000;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+    overflow: hidden;
+    border-radius: 50%;
+    transform: translate3d(0, 0,0);
+    position: fixed;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5));
+}

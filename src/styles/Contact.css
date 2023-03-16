@@ -1,0 +1,78 @@
+#contact {
+    color: rgb(128, 29, 221);
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    max-width: 1440px;
+    margin: 0% auto;
+    height: auto;
+}
+#contact h1 {
+    margin: 0%;
+}
+
+.contact-title {
+    font-size: 40px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+.discuss {
+    color: silver;
+}
+.hire {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    justify-content: space-between;
+}
+
+.contact-detail a {
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-detail p {
+    margin-top: 2%;
+}
+
+.contact-detail img {
+    margin-bottom: 2%;
+    width: 50px;
+    height: 50px;
+}
+
+.links {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    padding: 70px;
+}
+
+.name {
+    color: whitesmoke;
+}
+.icons-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  @media screen and (max-width: 767px) {
+    #contact {
+        width: 100%;
+        margin: 0%;
+    }
+
+    .hire {
+        width: 100%;
+        padding: 50px;
+    }
+    
+    .links {
+        padding: 50px;
+    }
+  }
