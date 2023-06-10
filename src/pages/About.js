@@ -8,8 +8,8 @@ function About() {
   on all screensizes (small, big and Extra large screen sizes) and that are
   scalable. Coding is a thing i love to do.`
   const profile = `I'm a student of Ambrose Alli University Ekpoma, I've very high intelligence
-  on TAILWINDCSS, HTML5, CSS3, JQUERY, VANILLA JAVASCRIPT, TYPESCRIPT, NEXT JS, NODEJS, RESTFUL APIS,
-  GITHUB, GITHUB ACTIONS and more.`
+  on TAILWINDCSS, HTML5, CSS3, VANILLA JAVASCRIPT, TYPESCRIPT, NEXT JS, RESTFUL APIS,
+  GITHUB, and more.`
   return (
     <div id='about'>
       <h1>About Me</h1>
